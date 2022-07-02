@@ -1,0 +1,130 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    color: black;
+    overflow-x: hidden;   
+    }
+
+a { 
+    text-decoration: none;
+    }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing:border-box
+}
+/* стилизация header  */
+
+.promo .promo__header {
+    padding: 25px 145px 25px 132px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 100px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 0px;
+
+}
+
+.promo .promo__header-logo img {
+    height: 40px;
+    width: 120px;
+}
+
+.promo__nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.promo__nav-list li a {
+    padding-right: 26px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #666666;
+}
+
+.promo__nav-list button {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+background: #222222;
+border-radius: 4px;
+color: #FFFFFF;
+}
+
+.promo .promo__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo  .promo__main-about {
+    width: 354px;
+    padding: 61px 100px 56px 78px;
+}
+
+.promo__main-about img {
+    height: 64px;
+    width: 192px;
+    padding-bottom: 11px;  
+}
+
+h1 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 49px;
+line-height: 58px;
+color: #222222;
+padding-bottom: 18px;
+}
+
+.promo__main-about p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #222222;
+padding-bottom: 20px;
+}
+
+.promo .promo__main-button button {
+    display: inline-block;
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #222222;
+border-radius: 4px;
+padding: 10px 25px 12px 25px;
+border: #222222;
+}
+
+.promo .main-button-dowload{
+    margin-right: 10px;
+}
+
+.promo .promo__main-img {
+    position: relative;
+    padding-right: 100px;
+    overflow: hidden;
+    height: 390px;
+}
