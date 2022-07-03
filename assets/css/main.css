@@ -784,8 +784,42 @@ padding-top: 100px;
     margin-right: 10px;
 }
 
+/* section Download */
 
+.download {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
 
+.download h2 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222
+}
+.download .subtitle {
+    text-align: center;
+}
+
+.download .info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    text-align: center;   
+    margin-bottom: 40px; 
+}
+
+.download img {
+    display: block;
+    margin: 0 auto;
+}
 
 
 
