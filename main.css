@@ -134,7 +134,7 @@ border: #222222;
     padding: 40px 25px 0px 25px
 }
 
-. h2 {
+.features h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -391,116 +391,6 @@ color: #222222;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
-/* section technology */
-
-.technology {
-    background: white;
-}
-
-.technology .container {
-    padding: 100px 100px 0px 100px;
-}
-
-.technology .technology__about {
-    display: flex;
-    justify-content: space-between;
-}
-
-.technology .technology__about .technology__about-info {
-    margin-right: 210px;
-    margin-top: 80px;
-    width: 420px;
-}
-.technology .technology__about .technology__about-info h2 {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #222222;
-    padding-bottom: 5px;
-}
-
-.technology .technology__about .technology__about-info .subtitle{
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 36px;
-    color: #222222;
-    padding-bottom: 15px;
-}
-.technology .technology__about .technology__about-info .main-info {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #666666;
-    
-}
-
-.technology .technology__about .technology__picture {
-    overflow: hidden;
-    height: 545px;
-}
-
-/* section speed ans security */
-
-.speed {
-    background: #F2F2F2;
-}
-
-.speed .container {
-    padding: 100px 100px 0px 100px;
-}
-
-.speed .speed__about {
-    display: flex;
-    justify-content: space-between;
-}
-.speed .speed__about .speed__picture{
-    margin-right: 210px;
-    overflow: hidden;
-    height: 545px;
-}
-/* .speed .speed__about .speed__picture img{
-    height: 545px;
-    overflow: hidden;
-} */
-
-.speed .speed__about .speed__about-info {
-    width: 420px;
-    margin-top: 80px;
-}
-.speed .speed__about .speed__about-info h2 {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #222222;
-    padding-bottom: 5px;
-}
-
-.speed .speed__about .speed__about-info .subtitle{
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 36px;
-    color: #222222;
-    padding-bottom: 15px;
-}
-.speed .speed__about .speed__about-info .main-info {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-   line-height: 24px;
-    color: #666666;
-}
-
 
 
 
