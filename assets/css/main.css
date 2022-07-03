@@ -423,13 +423,14 @@ color: #222222;
     padding-bottom: 5px;
 }
 
-.technology .technology__about .technology__about-info .subtitle{
+.subtitle{
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 32px;
     line-height: 36px;
     color: #222222;
     padding-bottom: 15px;
+    text-align: left;
 }
 .technology .technology__about .technology__about-info .main-info {
     font-family: 'Poppins';
@@ -481,14 +482,6 @@ color: #222222;
     padding-bottom: 5px;
 }
 
-.speed .speed__about .speed__about-info .subtitle{
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 36px;
-    color: #222222;
-    padding-bottom: 15px;
-}
 .speed .speed__about .speed__about-info .main-info {
     font-family: 'Poppins';
     font-style: normal;
@@ -592,7 +585,7 @@ color: #222222;
     color: #222222;
 }
 
-.pricing .subtitle {
+ .pricing .subtitle {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 32px;
@@ -728,6 +721,69 @@ color: #222222;
 .pricing-lifetime  button {
     background: #FF9209;
 }
+
+/* section testimionls */
+.testimonials{
+background: #F2F2F2;
+padding-bottom: 100px;
+padding-top: 100px;
+}
+
+.testimonials h2 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222
+}
+
+.testimonials .subtitle {
+    text-align: center;
+}
+
+.testimonials .info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    text-align: center;   
+    margin-bottom: 40px; 
+}
+.testimonials .testimonials__review {
+    display: flex;
+    gap: 15px;
+
+}
+.testimonials__review-opinion {
+    padding: 28px;
+    background: white;
+    border-radius: 20px;
+}
+
+.testimonials__review p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    text-align: left;
+}
+
+.testimonials__review .testimonials__review-person {
+    display: flex;
+    margin-top: 20px;
+}
+
+.testimonials__review .testimonials__review-person img {
+    margin-right: 10px;
+}
+
 
 
 
