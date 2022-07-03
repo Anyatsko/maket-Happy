@@ -134,7 +134,7 @@ border: #222222;
     padding: 40px 25px 0px 25px
 }
 
-. h2 {
+h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -465,10 +465,6 @@ color: #222222;
     overflow: hidden;
     height: 545px;
 }
-/* .speed .speed__about .speed__picture img{
-    height: 545px;
-    overflow: hidden;
-} */
 
 .speed .speed__about .speed__about-info {
     width: 420px;
@@ -497,9 +493,77 @@ color: #222222;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-   line-height: 24px;
+    line-height: 24px;
     color: #666666;
 }
+
+/* section dark mood */
+
+.mode {
+    background: #222222;
+}
+
+.mode .container{
+    padding: 100px 300px 160px 300px;
+}
+.mode h2{
+    padding-bottom: 5px;
+}
+
+.mode .subtitle  {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.mode .info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.mode  .mode-picture-mobile {
+    padding: 30px 100px 0px;
+}
+
+
+.mode .mode-picture-different {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-top: 2px solid #E5E5E5;;
+}
+
+.mode .mode-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.mode .mode-light p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
 
 
 
