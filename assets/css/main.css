@@ -46,13 +46,14 @@ a {
 }
 
 .promo__nav-list li a {
-    padding-right: 26px;
+    margin-right: 25px;
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-color: #666666;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 15px;
 }
+
 
 .promo__nav-list button {
     font-family: 'Poppins';
@@ -179,7 +180,7 @@ border: #222222;
     margin: 40px 76px 0px 76px;
 }
 
-    .features .features-cards .description{
+.features .features-cards .description{
     background: #F2F2F2;;
     position: relative;
     width: 285px;
@@ -585,7 +586,7 @@ color: #222222;
     color: #222222;
 }
 
- .pricing .subtitle {
+.pricing .subtitle {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 32px;
@@ -607,7 +608,8 @@ color: #222222;
 
 .pricing__option{
     display: flex;
-    gap: 16px;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .pricing__option .pricing-standart {

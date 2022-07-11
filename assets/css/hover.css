@@ -1,0 +1,39 @@
+.promo .promo__nav-list li a:hover {
+    background-color: lightgrey;
+}
+
+.promo .promo__nav-list button:hover {
+    background-color: white;
+    color: black;
+}
+
+.promo .promo__main-button button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#features .ampersand:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.promo .promo__main-img img:hover{
+    position: relative;
+    top: -10px;
+}
+
+.mode .mode-light:hover{
+    fill: red;
+    cursor: pointer;
+}
+
+.features-cards .description .feature-cards-sign:hover{
+    cursor: pointer;
+    border-radius:50%;
+}
+
+.pricing__option button:hover{
+    background-color: rgba(200, 200, 200, 0.5);
+    color: black;
+}
